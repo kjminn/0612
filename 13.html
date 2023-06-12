@@ -8,7 +8,11 @@
     <script>
         $(document).ready(function (){
             $("h1").click(function (){
-                alert("클릭하셨군요~")
+                alert("클릭하셨군요~");
+                $("h1").css({
+                    backgroundColor: "magenta",
+                    color: "white"
+                });
             });
         });
     </script>
