@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(
+                function() {
+                    $(".page").fadeToggle(2000);
+                }
+            );
+        });
+    </script>
+</head>
+<body>
+    <button>Toggle Show</button>
+    <div class="page">
+        <h1>Lorem ipsum dolor sit amet</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Perspiciatis magnam, laudantium numquam, fuga saepe, earum consectetur ad modi ullam vel nisi dolorem incidunt possimus soluta harum alias cumque officia voluptate!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Quae quo itaque non et quisquam totam doloribus, autem nostrum dignissimos perspiciatis blanditiis voluptas ab, sunt provident vitae sit at vel aliquid!
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Eveniet minus quasi eum labore odio ut qui quia corporis eligendi reprehenderit deserunt, doloremque, magni veritatis at tempora? Inventore explicabo est eligendi.
+        </p>
+    </div>
+</body>
+</html>
